@@ -1,0 +1,43 @@
+{
+  "name": "meu-primeiro-jogo-multiplayer",
+  "version": "1.0.0",
+  "description": "Meu Primeiro Jogo Multiplayer",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7odri9o/meu-primeiro-jogo-multiplayer.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "Socket",
+    "HTML5",
+    "Javascript",
+    "CSS3",
+    "REST",
+    "ES6"
+  ],
+  "author": "Rodrigo Rocha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7odri9o/meu-primeiro-jogo-multiplayer/issues"
+  },
+  "homepage": "https://github.com/7odri9o/meu-primeiro-jogo-multiplayer#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.0",
+    "nodemon": "^2.0.2"
+  },
+  "engines": {
+    "node": "13.6.x"
+  }
+}
