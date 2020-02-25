@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/7odri9o/meu-primeiro-jogo-multiplayer#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "nodemon": "^2.0.2",
     "socket.io": "^2.3.0"
