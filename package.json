@@ -5,7 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon server"
+    "dev": "cross-env NODE_ENV=development nodemon server",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -35,5 +36,8 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.0"
+  },
+  "engines": {
+    "node": "13.6.x"
   }
 }
